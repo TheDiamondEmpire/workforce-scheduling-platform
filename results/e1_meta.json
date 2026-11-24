@@ -1,0 +1,46 @@
+{
+  "finished": "2026-10-21T19:38:55",
+  "hardware": {
+    "cpu": "AMD EPYC 7543P 32-Core Processor",
+    "physical_cores": 4,
+    "logical_cores": 8,
+    "ram_gb": 28.0,
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "ortools": "9.15.6755",
+    "scikit_learn": "1.9.1",
+    "statsmodels": "0.15.0",
+    "numpy": "2.5.4",
+    "cp_sat_workers_used": 2,
+    "note": "shared machine: other jobs ran concurrently; see cpu_load_pct per row"
+  },
+  "experiment": "E1 CP-SAT vs greedy",
+  "sizes": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "utilizations": [
+    0.8,
+    0.92
+  ],
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "time_limits_s": {
+    "20": 20.0,
+    "50": 30.0,
+    "100": 60.0,
+    "200": 60.0
+  },
+  "workers": 2,
+  "gap_limit": 0.01,
+  "quick": false,
+  "weights": "coverage=20000 cost=1 preference=40 fairness=0 stability=0",
+  "synthetic": true
+}
